@@ -1,0 +1,27 @@
+<html>
+<head>
+    <title>If Statements Example:</title>
+    <script language="javascript">
+        var first , second;
+        first = window.prompt("enter first string:", "0");
+        second = window.prompt("enter second string:", "0");
+        document.write("<h1>comparison result</h1>");
+        document.write("<table border='1' width='100%'>");
+            if(first==second)
+            document.write("<tr><td>" + first + "==" + second + "</td></tr>");
+            if(first!=second)
+            document.write("<tr><td>" + first + "!=" + second + "</td></tr>"); 
+            if(first < second)
+            document.write("<tr><td>" + first + "<" + second + "</td></tr>");
+            if(first > second)
+            document.write("<tr><td>" + first + ">" + second + "</td></tr>");
+            if(first<=second)
+            document.write("<tr><td>" + first + "<=" + second + "</td></tr>");
+            if(first>=second)
+            document.write("<tr><td>" + first + ">=" + second + "</td></tr>");
+            document.write("</table>");       
+    </script>
+</head>
+</html>
+
+

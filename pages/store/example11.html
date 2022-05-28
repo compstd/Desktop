@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            while loop examples:
+        </title>
+            <script language="javascript">
+            var total , gradeCounter, gradevalue ,average ,value;
+
+            total=0;
+            gradeCounter =0;
+            grade= window.prompt("enter integer grade:-1 to Quit.","0");
+            gradevalue=parseInt(grade);
+            while( gradevalue != -1){
+                total = total + gradevalue;
+                gradeCounter= gradeCounter + 1;
+                grade=window.prompt("enter an integer grade:-1 to Quit","0");
+                gradevalue=parseInt(grade);
+            }
+            if (gradeCounter !=0)
+            average = total / gradeCounter;
+            document.write("<h1> class average is "+ average +"</h1>");
+        
+        </script>
+    </head>
+    <body>
+        click to refresh it again
+    </body>
+</html>
